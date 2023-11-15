@@ -1,18 +1,25 @@
 site_name: Tutorial
-site_url: https://james-willett.github.io/mkdocs-material-youtube-tutorial/
+site_url: https://oit1.github.io/marking-dairy-products-tutorial/
+repo_url: https://github.com/oit1/marking-dairy-products-tutorial
+repo_name: marking-tutorial
+
 theme:
   name: material
+  language: ru
+  #logo: assets/logo.png
+  #favicon: images/logo.png
   features:
+    - toc.integrate
     - navigation.tabs
     - navigation.sections
-    - toc.integrate
+    - navigation.instant    
     - navigation.top
-    - search.suggest
     - search.highlight
+    - search.share
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-  language: en
+    - header.autohide
   palette:
     - scheme: default
       toggle:
@@ -27,15 +34,24 @@ theme:
       primary: teal
       accent: lime
 
+plugins:
+  - search:
+      lang: ru
+  - glightbox
+
 extra:
+  homepage: https://oit1.github.io/marking-dairy-products-tutorial/
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/oit1
     - icon: fontawesome/brands/slack
-      link: https://t.me/yuriburyakoV
-      name: write to telegram
+      link: mailto:oit1@kmkk.ru
+      name: write by email
+  generator: false
 
 markdown_extensions:
+  - tables
+  - md_in_html
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -45,12 +61,21 @@ markdown_extensions:
       generic: true
   - footnotes
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.mark
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
 
 copyright: |
   &copy; 2023 <a href="https://github.com/oit1"  target="_blank" rel="noopener">Yuri Buryakov</a>
