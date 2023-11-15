@@ -19,6 +19,5 @@ jobs:
           key: ${{ github.ref }}
           path: .cache
       - run: pip install mkdocs-material
-      - run: pip install mkdocs-glightbox
-      - run: pip install pillow cairosvg
+      - run: pip install pillow cairosvg mkdocs-glightbox
       - run: mkdocs gh-deploy --force
