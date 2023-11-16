@@ -22,9 +22,40 @@ graph LR
 
 ## Отчет о нанесении
 
+<figure markdown>
+  ![Image title](assets/Pict01_icon.jpg){width="200"}
+  <figcaption>Image caption</figcaption>
+</figure>
 
 ## Корректировка отчета о нанесении
 
+<figure markdown>
+  ![Image title](assets/Pict02_start.png){width="200"}
+  <figcaption>Image caption</figcaption>
+</figure>
 
 ## Отчет о вводе в оборот
+
+
+<figure markdown>
+  ![Image title](assets/Pict03_main.png){width="200"}
+  <figcaption>Image caption</figcaption>
+</figure>
+
+
+
+## Еще один раздел
+
+<figure markdown>
+  ![Image title](assets/Pict04_write.png){width="200"}
+  <figcaption>Image caption</figcaption>
+</figure>
+
+
+## Следующий раздел
+
+<figure markdown>
+  ![Image title](assets/Pict05_end.png){width="200"}
+  <figcaption>Image caption</figcaption>
+</figure>
 
