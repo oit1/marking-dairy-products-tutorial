@@ -1,4 +1,4 @@
-# Welcome to Мarking dairy products tutorial
+# Документация по проекту Маркировка. Тестовая среда
 
 ## Commands
 
@@ -23,7 +23,7 @@
 ### Проверка технологии
 
 
-Please see the [ссылка на страницу документации](./production/cheese.md) for further details.
+Please see the [ссылка на страницу документации](./Production/cheese.md) for further details.
 
 
 
