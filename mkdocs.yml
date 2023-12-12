@@ -8,7 +8,7 @@ repo_name: marking-tutorial
 nav:
   - 'Начало': index.md
   - 'Производство':
-    - 'Цех сырков': 'production/cheese.md'
+    - 'Цех сырков работа': 'production/cheese.md'
     - 'Основное подразделение': 'production/main.md'
   - 'Авторы':
     - 'О программе': about.md
