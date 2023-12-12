@@ -1,8 +1,5 @@
 # Welcome to Мarking dairy products tutorial
 
-
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
@@ -16,3 +13,22 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+
+## Технологии
+
+
+Используемые программы.
+
+### Проверка технологии
+
+
+Please see the [ссылка на страницу документации](./production/cheese.md) for further details.
+
+
+
+
+<figure markdown>
+  ![Image title](./images/logo.png){width="200"}
+  <figcaption>Image caption</figcaption>
+</figure>

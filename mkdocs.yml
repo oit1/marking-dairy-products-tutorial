@@ -1,7 +1,21 @@
-site_name: Tutorial
+site_name: Документация
+site_description: Описание документация установки
+site_author: WWW
 site_url: https://oit1.github.io/marking-dairy-products-tutorial/
 repo_url: https://github.com/oit1/marking-dairy-products-tutorial
 repo_name: marking-tutorial
+
+nav:
+  - 'Начало': index.md
+  - 'Производство':
+    - 'Цех сырков': 'production/cheese.md'
+    - 'Основное подразделение': 'production/main.md'
+  - 'Авторы':
+    - 'О программе': about.md
+    - 'Лицензии': license.md
+    - 'Версии': release-notes.md
+    - 'Внешний ресурс': 'https://example.com/'
+
 
 theme:
   name: material
@@ -44,10 +58,14 @@ extra:
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/oit1
+      name: Yuri Buryakov
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/dvdocumentation
+      name: SimpleUI
     - icon: fontawesome/brands/slack
       link: mailto:oit1@kmkk.ru
       name: write by email
-  generator: false
+#  generator: false
 
 markdown_extensions:
   - tables

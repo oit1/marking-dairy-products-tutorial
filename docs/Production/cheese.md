@@ -14,7 +14,7 @@ graph LR
 ## Фасовка сырков на палочке
 
 <figure markdown>
-  ![Image title](assets/logo.png){width="200"}
+  ![Image title](../assets/logo.png){width="200"}
   <figcaption>Image caption</figcaption>
 </figure>
 
@@ -23,14 +23,14 @@ graph LR
 ## Отчет о нанесении
 
 <figure markdown>
-  ![Image title](assets/Pict01_icon.jpg){width="200"}
+  ![Image title](../assets/Pict01_icon.jpg){width="200"}
   <figcaption>Image caption</figcaption>
 </figure>
 
 ## Корректировка отчета о нанесении
 
 <figure markdown>
-  ![Image title](assets/Pict02_start.png){width="200"}
+  ![Image title](../assets/Pict02_start.png){width="200"}
   <figcaption>Image caption</figcaption>
 </figure>
 
@@ -38,7 +38,7 @@ graph LR
 
 
 <figure markdown>
-  ![Image title](assets/Pict03_main.png){width="200"}
+  ![Image title](../assets/Pict03_main.png){width="200"}
   <figcaption>Image caption</figcaption>
 </figure>
 
@@ -47,7 +47,7 @@ graph LR
 ## Еще один раздел
 
 <figure markdown>
-  ![Image title](assets/Pict04_write.png){width="200"}
+  ![Image title](../assets/Pict04_write.png){width="200"}
   <figcaption>Image caption</figcaption>
 </figure>
 
@@ -55,7 +55,7 @@ graph LR
 ## Следующий раздел
 
 <figure markdown>
-  ![Image title](assets/Pict05_end.png){width="200"}
-  <figcaption>Image caption</figcaption>
+  ![Image title](../assets/Pict05_end.png){width="200"}
+  <figcaption>Рисунок 4. Успешное завершение операции.</figcaption>
 </figure>
 
