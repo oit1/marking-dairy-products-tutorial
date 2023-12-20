@@ -10,6 +10,8 @@ nav:
   - 'Производство':
     - 'Цех сырков работа': 'Production/cheese.md'
     - 'Основное подразделение': 'Production/main.md'
+  - 'Логистика':
+    - 'Контроль движения': 'Logistik/TrafficControl.md'
   - 'Авторы':
     - 'О программе': about.md
     - 'Лицензии': license.md
